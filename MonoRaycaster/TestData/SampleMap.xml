@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Map>
+	<Texture Filename="PublicDomainTextures.png"/>
+	<Skybox Filename="PublicDomainSkybox.png"/>
+	<StartPosition X="3" Y="2"/>
+	<Layout Width="5" Height="5">
+		<Ceiling>
+			<Row>
+				<Column TextureIndex="2"/><Column TextureIndex="2"/><Column TextureIndex="2"/><Column TextureIndex="2"/><Column TextureIndex="2"/>
+			</Row>
+			<Row>
+				<Column TextureIndex="2"/><Column TextureIndex="2"/><Column TextureIndex="2"/><Column TextureIndex="2"/><Column TextureIndex="2"/>
+			</Row>
+			<Row>
+				<Column TextureIndex="2"/><Column TextureIndex="2"/><Column TextureIndex="2"/><Column TextureIndex="2"/><Column TextureIndex="2"/>
+			</Row>
+			<Row>
+				<Column TextureIndex="2"/><Column TextureIndex="-1"/><Column TextureIndex="-1"/><Column TextureIndex="-1"/><Column TextureIndex="2"/>
+			</Row>
+			<Row>
+				<Column TextureIndex="2"/><Column TextureIndex="2"/><Column TextureIndex="2"/><Column TextureIndex="2"/><Column TextureIndex="2"/>
+			</Row>
+		</Ceiling>
+		<Wall>
+			<Row>
+				<Column TextureIndex="1"/><Column TextureIndex="1"/><Column TextureIndex="1"/><Column TextureIndex="1"/><Column TextureIndex="1"/>
+			</Row>
+			<Row>
+				<Column TextureIndex="1"/><Column TextureIndex="-1"/><Column TextureIndex="-1"/><Column TextureIndex="-1"/><Column TextureIndex="1"/>
+			</Row>
+			<Row>
+				<Column TextureIndex="1"/><Column TextureIndex="-1"/><Column TextureIndex="-1"/><Column TextureIndex="-1"/><Column TextureIndex="1"/>
+			</Row>
+			<Row>
+				<Column TextureIndex="1"/><Column TextureIndex="-1"/><Column TextureIndex="-1"/><Column TextureIndex="-1"/><Column TextureIndex="1"/>
+			</Row>
+			<Row>
+				<Column TextureIndex="1"/><Column TextureIndex="1"/><Column TextureIndex="1"/><Column TextureIndex="1"/><Column TextureIndex="1"/>
+			</Row>
+		</Wall>
+		<Floor>
+			<Row>
+				<Column TextureIndex="0"/><Column TextureIndex="0"/><Column TextureIndex="0"/><Column TextureIndex="0"/><Column TextureIndex="0"/>
+			</Row>
+			<Row>
+				<Column TextureIndex="0"/><Column TextureIndex="0"/><Column TextureIndex="0"/><Column TextureIndex="0"/><Column TextureIndex="0"/>
+			</Row>
+			<Row>
+				<Column TextureIndex="0"/><Column TextureIndex="0"/><Column TextureIndex="0"/><Column TextureIndex="0"/><Column TextureIndex="0"/>
+			</Row>
+			<Row>
+				<Column TextureIndex="0"/><Column TextureIndex="0"/><Column TextureIndex="0"/><Column TextureIndex="0"/><Column TextureIndex="0"/>
+			</Row>
+			<Row>
+				<Column TextureIndex="0"/><Column TextureIndex="0"/><Column TextureIndex="0"/><Column TextureIndex="0"/><Column TextureIndex="0"/>
+			</Row>	
+		</Floor>
+	</Layout>
+</Map>
