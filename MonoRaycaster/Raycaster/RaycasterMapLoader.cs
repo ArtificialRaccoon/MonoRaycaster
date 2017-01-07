@@ -38,7 +38,7 @@ namespace OpenGLTest
 
 			XmlNode textureNode = doc.GetElementsByTagName ("Texture")[0];
 			fileName = textureNode.Attributes ["Filename"].Value;
-			using (Bitmap textureBitmap = new Bitmap(fileName)) 
+			using (Bitmap textureBitmap = new Bitmap(filePath + System.IO.Path.DirectorySeparatorChar + fileName)) 
 			{
 				int textureCount = textureBitmap.Width / RaycasterConstants.TextureSize;
 				textures = new BitmapData[textureCount];
@@ -60,7 +60,7 @@ namespace OpenGLTest
 
 			XmlNode skyboxNode = doc.GetElementsByTagName ("Skybox")[0];
 			fileName = skyboxNode.Attributes ["Filename"].Value;
-			using (Bitmap skyboxBitmap = new Bitmap(fileName)) 
+			using (Bitmap skyboxBitmap = new Bitmap(filePath + System.IO.Path.DirectorySeparatorChar + fileName)) 
 			{
 				skyTexture = skyboxBitmap.LockBits(new Rectangle(0, 0, skyboxBitmap.Width, skyboxBitmap.Height), ImageLockMode.ReadOnly, RaycasterConstants.RaycasterPixelFormat);
 				skyInts = new int[Math.Abs(skyTexture.Stride/4) * 240];
